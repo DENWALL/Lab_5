@@ -1,0 +1,1 @@
+cmd_/home/pi/Lab5_v2/driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T /usr/src/linux-headers-4.19.0-13-common/scripts/module-common.lds  --build-id  -o /home/pi/Lab5_v2/driver.ko /home/pi/Lab5_v2/driver.o /home/pi/Lab5_v2/driver.mod.o ;  true
